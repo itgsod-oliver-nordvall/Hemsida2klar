@@ -1,0 +1,59 @@
+body{
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    position: relative;
+    font-size: 7vw;
+    text-align: center;
+}
+
+#links{
+    position: relative;
+    font-size: 3vw;
+    text-align: left;
+}
+
+#links a:visited{
+    color: black;
+}
+
+#links a:link{
+    color: black;
+}
+
+#header a:visited{
+    color: black;
+}
+
+#header a:link{
+    color: black;
+}
+
+#skogsflicka{
+    position: relative;
+    margin-top: 0.5vw;
+}
+
+#larare{
+    margin-left: 5vw;
+    position: relative;
+    margin-top:3vw;
+}
+
+#skogbild{
+    margin-top: 1.5vw;
+    float: left;
+}
+
+#sjuk{
+    margin-right: 3vw;
+    float: right;
+}
+
+#kontaktrektor{
+    margin-right: 3vw;
+    float: right;
+}

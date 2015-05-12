@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Dalarnas Skogsskola</title>
+<link href="../CSS/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div id="header">
+    <a href="index.html">Dalarnas Skogsskola</a>
+</div>
+
+<div id="links">
+    <a href="Om%20skolan.html">Om Skolan</a>
+    <a href="Vårdnadshavare.html">Vårdnadshavare</a>
+    <a href="Kontakta%20oss.html">Kontakta Oss</a>
+    <a href="Hitta%20Oss.html">Hitta Oss</a>
+</div>
+<style>
+    html, body, #map-canvas {
+        height: 91%;
+        margin: 0px;
+        padding: 5px
+    }
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<script>
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(61.3554922,14.3640291);
+        var mapOptions = {
+            zoom: 16,
+            center: myLatlng
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Hello World!'
+        });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+</head>
+<body>
+<div id="map-canvas"></div>
+</body>
+</div>
+</body>
+</html>
