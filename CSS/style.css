@@ -43,6 +43,12 @@ body{
     margin-top:3vw;
 }
 
+#rektor{
+    margin-left: 5vw;
+    position: relative;
+    margin-top:3vw;
+}
+
 #skogbild{
     margin-top: 1.5vw;
     float: left;
